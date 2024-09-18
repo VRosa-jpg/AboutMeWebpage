@@ -9,6 +9,16 @@ body {
     background-color: rgb(34, 34, 34);
 }
 
-.text {
-    
+#hero-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#hero-image:hover {
+    display:contents;
+    background-image: url("computer_image.jpg");
 }
